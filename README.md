@@ -81,9 +81,10 @@ pill-reminder/
 ├── uploads/                      # โฟลเดอร์เก็บไฟล์อัปโหลดจากผู้ใช้
 ├── pictures/                     # โฟลเดอร์เก็บรูปภาพจาก ESP32
 ├── vendor/                       # โฟลเดอร์เก็บ Dependencies ของ Composer
-├── .env                          # ไฟล์เก็บค่าการตั้งค่า Environment Variables
+├── .env                          # ไฟล์เก็บค่าการตั้งค่า Environment 
 ├── composer.json
-└── composer.lock
+├── composer.lock
+└── pill-reminder.sql             # ไฟล์ sql   
 ```
 
 ## การติดตั้ง
@@ -97,4 +98,6 @@ cd pill-reminder
 composer install
 ```
 3. ตั้งค่า .env 
+
+4. นำไฟล์ sql ที่ให้ไปใช้งาน
 ---
